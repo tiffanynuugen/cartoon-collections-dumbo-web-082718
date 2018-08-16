@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   dwarves = ["Doc", "Dopey", "Grumpy", "Bashful"]
-  %w(Doc Dopey Grumpy Bashful).each_with_index { |item, index|
-  hash[item] = index
+  %w(Doc Dopey Grumpy Bashful).each_with_index { |Doc, 0|
+  hash[Doc] = 0
 }
   end
 
